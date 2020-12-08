@@ -14,5 +14,7 @@ class MainActivity : AppCompatActivity() {
         btn_toast.setOnClickListener {
             Toast.makeText(this, "테스트 메세지 입니다.", Toast.LENGTH_LONG).show()
         }
+
+        Log.d("tag", "재 테스트 메세지")
     }
 }
