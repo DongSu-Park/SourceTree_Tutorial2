@@ -6,4 +6,5 @@
     <string name="text_main">MainActivity binding</string>
     <string name="btn_toast">확인 메세지</string>
     <string name="btn_second">다음 페이지</string>
+    <string name="btn_test_second">확인 메세지</string>
 </resources>
