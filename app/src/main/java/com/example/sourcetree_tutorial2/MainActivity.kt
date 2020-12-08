@@ -1,5 +1,6 @@
 package com.example.sourcetree_tutorial2
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -13,6 +14,11 @@ class MainActivity : AppCompatActivity() {
 
         btn_toast.setOnClickListener {
             Toast.makeText(this, "테스트 메세지 입니다.", Toast.LENGTH_LONG).show()
+        }
+
+        btn_second.setOnClickListener {
+            val intent = Intent(this, SecondActivity::class.java)
+            startActivity(intent)
         }
 
         Log.d("tag", "재 테스트 메세지")
