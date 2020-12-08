@@ -15,6 +15,6 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "테스트 메세지 입니다.", Toast.LENGTH_LONG).show()
         }
 
-        Log.d("tag", "테스트 메세지 입니다.")
+        Log.d("tag", "테스트 메세지 수정 입니다.")
     }
 }
